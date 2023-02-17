@@ -1,7 +1,9 @@
 # Amazon_Vine_Analysis
 Analyzing Amazon reviews written by members of the paid Amazon Vine program
+Tools used for this analysis include AWS, ETL, pgAdmin and Jupyter Notebook.
 ## Overview
-  The purpose of this analysis is to look at a dataset of reviews on musical instruments on Amazon. Then analyze how the Vine program reviews compare to reviews not a part of the vine program.
+  The purpose of this analysis is to look at a dataset of reviews on Amazon. Then analyze how the Vine program reviews compare to reviews not a part of the vine program.
+  In this analysis we used the Musical Instruments Dataset from the Amazon REview datasetsLinks. To complete the analysis we extracted the dataset into a DataFrame, transformed the DataFrame into four separate DataFrames that match the table schema we made in pgAdmin using an ETL. Then, we uploadedcthe transformed data into the appropriate tables and ran queries in pgAdmin to confirm that the data has been uploaded.
 ## Results
 Analysis of the dataset results is below:
 
